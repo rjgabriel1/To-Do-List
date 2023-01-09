@@ -6,7 +6,7 @@ const _ = require("lodash");
 
 //Create connection to the database.
 mongoose.set("strictQuery", false);
-mongoose.connect("mongodb+srv://admin-rj:Iamsudo@cluster0.kkcunel.mongodb.net/todolistDB");
+mongoose.connect("mongodb+srv://username:<password>@cluster0.kkcunel.mongodb.net/todolistDB");
 
 const itemsSchema = new mongoose.Schema({
   name: String,
